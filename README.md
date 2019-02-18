@@ -5,7 +5,7 @@
 #### By Jasmine Lee
 
 ## Description
-
+This program allows the user to input a sentence and choose a word within the sentence. The program will then respond with the number of times the word appears in the sentence.
 
 ## Specifications
 | Descriptions | Input Example | Output Example |
