@@ -18,7 +18,6 @@ This program allows the user to input a sentence and choose a word within the se
 
 
 ## Setup/Installation Requirements
-
 * Open GitHub and go to https://github.com/jasminealee/word-counter/git click "clone or download"; copy the url provided.
 * Go to Terminal and clone the folder by typing "git clone (repository url)" then enter.
 * Open the folder in atom or your choice of text editor.
