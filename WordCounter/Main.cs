@@ -15,4 +15,17 @@ namespace WordCounter {
       string selectedWord = Console.ReadLine();
       string selectedWord = selectedWord.ToLower();
       userFind.StringSplitWord(selectedSentence, selectedWord);
-      
+      int total = RepeatCounter.totalFind;
+    }
+  }
+
+  public class WordFindClass
+  {
+    public int StringSplitWord(string userTypeWord, Word)
+    {
+        Find(inputtedSentence, inputtedWord);
+      }
+      return RepeatCounter.totalFind;
+    }
+  }
+  }
