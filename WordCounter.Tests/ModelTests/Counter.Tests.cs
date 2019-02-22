@@ -11,8 +11,16 @@ namespace Main.Tests;
 	public void IsWordCounter_FullWordTrue()
 	    {
 	  WordCounter testWordCounter = new WordCounter();
-	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
-	  }
+	  Assert.AreEqual(true, testWordCounter.IsWordCounter){
+        return {
+          WordCounter;
+          }
+        else {
+          return "Sorry, there is an error with your answer."
+          }
+        }
+      }
+    }
 	}
 
 	[TestMethod]
