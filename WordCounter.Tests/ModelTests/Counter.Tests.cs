@@ -7,7 +7,6 @@ namespace Main.Tests;
 {
 	public class IsWordCounter_FullWordTrue()
 	[TestMethod]
-	public class MatchWordTest;
 	  {
 	public void IsWordCounter_FullWordTrue()
 	    {
@@ -15,7 +14,6 @@ namespace Main.Tests;
 	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
 	  }
 	}
-	    }
 
 	[TestMethod]
 	public void IsWordCounter_PunctuationNotNecessaryTrue()
@@ -23,8 +21,8 @@ namespace Main.Tests;
 	    {
 	  WordCounter testWordCounter = new WordCounter();
 	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+			}
 	}
-	    }
 
 	[TestMethod]
 	public void IsWordCounter_NumberTrue()
@@ -32,8 +30,8 @@ namespace Main.Tests;
 	    {
 	  WordCounter testWordCounter = new WordCounter();
 	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+			}
 	}
-	    }
 
 	[TestMethod]
 	public void IsWordCounter_CapitalizationNotNecessary()
@@ -41,8 +39,8 @@ namespace Main.Tests;
 	    {
 	  WordCounter testWordCounter = new WordCounter();
 	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+			}
 	}
-	    }
 
 	[TestMethod]
 	public void IsWordCounter_NoSymbolsTrue()
