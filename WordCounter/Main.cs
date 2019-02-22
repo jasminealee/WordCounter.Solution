@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace WordCounter {
+namespace WordCounter
+{
 
   public class Program
   {
@@ -24,8 +25,7 @@ namespace WordCounter {
     public int StringSplitWord(string userTypeWord, Word)
     {
         Find(inputtedSentence, inputtedWord);
-      }
-      return RepeatCounter.totalFind;
     }
+      return RepeatCounter.totalFind;
   }
-  }
+}
