@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using Main.Models;
 
-namespace Main.Tests;
+namespace Main.cs.Tests;
 {
 	public class IsWordCounter_FullWordTrue()
 	[TestMethod]
