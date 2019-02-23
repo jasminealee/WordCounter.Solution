@@ -28,7 +28,7 @@ namespace Main.cs.Tests;
 	{
 	    {
 	  WordCounter testWordCounter = new WordCounter();
-	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
 			}
 	}
 
@@ -37,7 +37,7 @@ namespace Main.cs.Tests;
 	{
 	    {
 	  WordCounter testWordCounter = new WordCounter();
-	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
 			}
 	}
 
@@ -46,7 +46,7 @@ namespace Main.cs.Tests;
 	{
 	    {
 	  WordCounter testWordCounter = new WordCounter();
-	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
 			}
 	}
 
@@ -55,7 +55,7 @@ namespace Main.cs.Tests;
 	{
 	    {
 	  WordCounter testWordCounter = new WordCounter();
-	  Assert.AreEqual(true, testWordCounter.IsWordCounter(pen));
+	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
 	    }
 	}
 
