@@ -24,14 +24,12 @@ This program allows the user to input a sentence and choose a word within the se
 * Or go to view the project website at https://jasminealee.github.io/word-counter/
 
 ## Known Bugs
-No known bugs
+Main.cs and Main.exe files are not accepting WordCounter.Models; strings[] and strings are also having issues
 
 
 ## Support and contact details
 
 Contact: jasmine.al1722@gmail.com
-
-
 
 ## Technologies Used
 
