@@ -3,58 +3,33 @@ using System;
 using System.Collections.Generic;
 using WordCounter.Models;
 
-namespace WordCounter.Tests;
+namespace WordCounter.Tests
 {
 	[TestClass]
-	public class WordCounterTests()
+	public class WordCounterTests
   {
 	  [TestMethod]
-		public void InputUserWord_DoesFunctionAcceptInput()
+		public void CheckString_IsThisWordAString_Bool()
 	  {
-			 string InputUserWord = "Camping";
-			 bool result = InputUserWord string;
+			 string userEnterWord = "Camping";
+			 bool result = userEnterWord is string;
 			 Assert.AreEqual(true, result);
 		}
 
 		[TestMethod]
-	  public void test()
-    {
+		public void CheckString_IsThisSentenceAString_Bool()
+		{
+			string userInputPhrase = "Is this phrase a string";
+			bool result = userInputPhrase is string;
+			Assert.AreEqual(true, result);
+		}
 
-	     Assert.AreEqual(true, testWordCounter.IsWordCounter)
-    }
-
-  	[TestMethod]
-  	public void IsWordCounter_PunctuationNotNecessaryTrue()
-  	{
-  	  WordCounter testWordCounter = new WordCounter();
-  	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
-  			}
-  		}
-  	}
-
-  	[TestMethod]
-  	public void IsWordCounter_NumberTrue()
-  	{
-  	    {
-  	  WordCounter testWordCounter = new WordCounter();
-  	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
-  			}
-  	}
-
-  	[TestMethod]
-  	public void IsWordCounter_CapitalizationNotNecessary()
-  	{
-  	    {
-  	  WordCounter testWordCounter = new WordCounter();
-  	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
-  			}
-  	}
-
-  	[TestMethod]
-  	public void IsWordCounter_NoSymbolsTrue()
-  	{
-  	    {
-  	  WordCounter testWordCounter = new WordCounter();
-  	  Assert.AreEqual(true, testWordCounter.IsWordCounter);
-  	    }
-  	}
+		[TestMethod]
+		public void CheckPuncutation_IsThisAPuncuation_Bool()
+		{
+			string punctuation = ".";
+			bool result = punctuation is string;
+			Assert.AreEqual(true, result);
+		}
+	}
+}

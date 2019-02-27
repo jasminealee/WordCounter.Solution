@@ -5,22 +5,35 @@ namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-    public string SplitSentence(string words)
+    public string[] SplitPhrase(string userInputPhrase)
     {
-      string[] userArr = words.Split();
-      return userArr;
+      string[] inputArr = userInputPhrase.Split(' ', '.', ',', '!', '?');
+      return inputArr;
     }
-    public int Find(string user, string[] words)
+    public int Find(string user, string[] userInputPhrase)
     {
       int total = 0;
-      for (int i = 0; i < words.Length; i++)
+      for (int i = 0; i < userInputPhrase.Length; i++)
       {
-        if (user == words[i])
+        if (user == userInputPhrase[i])
         {
           total++;
         }
       }
       return total;
+    }
+    public string VerbTense(int total)
+    {
+      string tense = "";
+      if (total < 0 || 1 < total)
+      {
+        tense = " times.";
+      }
+      else if (total == 1)
+      {
+        tense = " time.";
+      }
+      return tense;
     }
   }
 }
