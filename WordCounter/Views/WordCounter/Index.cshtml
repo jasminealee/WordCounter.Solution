@@ -1,0 +1,16 @@
+@using WordCounter;
+
+<h1>WordCounter</h1>
+
+@if (RepeatCounter.GetCounter() == 0)
+{
+  <p>I'm sorry but your word wasn't found.</p>
+}
+@if (RepeatCounter.GetCounter() != 0)
+{
+  <p>Your Inputted phrase: <strong>@RepeatCounter.GetPhrase() </strong></p>
+  <p>Your Inputted Word: <strong>@RepeatCounter.GetWord() </strong></p>
+  <p>@RepeatCounter.GetWord() appears <strong>@Model.Count() times</strong></p>
+}
+
+<a href="/wordcounter/new">Main Page</a>
