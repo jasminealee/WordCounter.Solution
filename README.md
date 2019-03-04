@@ -22,7 +22,7 @@ Important Notes: Mono, .Net Core 1.1.4 SDK, and .NET Core Runtime 1.1.2 must be 
 * Open GitHub and go to https://github.com/jasminealee/WordCounter.Solution click "clone or download"; copy the url provided.
 * Go to Terminal and clone the folder by typing "git clone (repository url)" then enter.
 * Open the folder in atom or your choice of text editor.
-* To run in Terminal, navigate to the WordCounter directory then compile the Main.cs and RepeatCounter.cs files with command "mcs Main.cs and Models/RepeatCounter.cs"
+* To run in Terminal, navigate to the WordCounter directory then compile the Main.cs and RepeatCounter.cs files with command "mcs Main.cs Models/RepeatCounter.cs"
 * Next use command "mono Main.exe" to execute the Main.exe file.
 * To run the tests, navigate to the WordCounter.Tests directory then use command "dotnet test".
 
