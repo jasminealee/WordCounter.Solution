@@ -1,0 +1,16 @@
+@using WordCounter.Models;
+
+<h1>Word Counter</h1>
+@if (RepeatCounter.GetCounter() == 0)
+{
+  <p>Your word wasn't in there</p>
+}
+@if (RepeatCounter.GetCounter() != 0)
+{
+  <p>@RepeatCounter.GetWord() occurs @RepeatCounter.GetCounter() time(s) in @RepeatCounter.GetPhrase()</p>
+}
+<div class="container">
+  <img class="snowdeer" src='~/img/snowdeer.jpg'>
+</div>
+
+<a href="/wordcounter/new">Back</a>
